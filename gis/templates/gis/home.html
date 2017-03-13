@@ -4,8 +4,9 @@
 {% endblock %}
 
 {% block content %}
-    <h1>Home</h1>
-    <p>
-        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid blanditiis ducimus, eum maxime nam omnis perspiciatis quae reprehenderit similique veritatis. Alias, aliquam animi blanditiis cumque deleniti harum iusto laborum maiores?</span><span>Asperiores et, facere laboriosam modi obcaecati quaerat recusandae sint? Commodi dolorum eos necessitatibus nihil nulla ratione. Deleniti harum hic ipsum, natus neque non officiis optio, repellat repellendus, soluta vel voluptas?</span><span>Accusantium aperiam cumque distinctio neque non nostrum obcaecati pariatur ratione repellat voluptatem? Aliquid assumenda cum debitis dicta et ex facere fugiat hic incidunt, itaque libero maxime, omnis temporibus ut voluptas.</span><span>Ducimus impedit minus reprehenderit repudiandae sit. Autem blanditiis, corporis cumque cupiditate dolorum esse facere fuga impedit ipsam ipsum maiores, maxime necessitatibus neque nesciunt nisi obcaecati quam quis soluta suscipit voluptatem.</span><span>Animi doloribus eveniet id itaque non, sed veritatis. Amet animi aperiam, dolorem esse eveniet, ipsam itaque magni nam odit, officiis quisquam quod reiciendis repudiandae rerum similique sunt suscipit tempore totam.</span><span>Alias, amet aspernatur assumenda eius eos est excepturi itaque laudantium libero maiores minima minus modi molestiae possimus, provident quae quas ratione reiciendis rem repellat saepe similique sit unde voluptates voluptatibus.</span><span>Ab aspernatur assumenda beatae consequatur culpa dolores ea exercitationem fuga fugiat ipsa ipsam ipsum iste iusto laudantium magni modi molestias nihil nostrum, pariatur perspiciatis possimus quae rerum sint suscipit voluptate?</span><span>Accusamus asperiores est itaque laborum laudantium magni officia reprehenderit, sed soluta suscipit. Alias aperiam deleniti esse explicabo facere inventore ipsam porro quidem sunt voluptatibus? Dolor minus perferendis recusandae similique voluptatum!</span><span>A ab alias, aliquid aspernatur commodi corporis, culpa deserunt doloremque doloribus eos in iste minima pariatur porro quaerat quo, rem sapiente similique vitae voluptas? At minima nesciunt perspiciatis porro quasi.</span><span>Accusamus accusantium, debitis dicta harum molestiae nihil omnis, porro quaerat quas quis, quisquam reprehenderit soluta suscipit totam velit? Consequuntur dolore eos, facere fuga harum ipsam laboriosam libero nesciunt repellendus tempora.</span>
-    </p>
+    {% for article in articles %}
+        <h3>{{ article.title }}</h3>
+        <p>{{ article.text | safe }}</p>
+    {% endfor %}
+
 {% endblock %}
