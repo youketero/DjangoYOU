@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7356c48a-6eb3-4b15-aa9d-2f56b011726b" name="Default" comment="">
+    <list default="true" id="7356c48a-6eb3-4b15-aa9d-2f56b011726b" name="Default" comment="get_short_text method added">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gis/templates/gis/articles.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gis/models.py" afterPath="$PROJECT_DIR$/gis/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gis/templates/gis/base.html" afterPath="$PROJECT_DIR$/gis/templates/gis/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gis/templates/gis/home.html" afterPath="$PROJECT_DIR$/gis/templates/gis/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gis/urls.py" afterPath="$PROJECT_DIR$/gis/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gis/views.py" afterPath="$PROJECT_DIR$/gis/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,11 +46,23 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gis/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
+                <element signature="e#176#385#0" expanded="false" />
+                <element signature="e#410#450#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="articles.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gis/templates/gis/articles.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,8 +80,8 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gis/templates/gis/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+            <state relative-caret-position="17">
+              <caret line="1" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -85,7 +97,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gis/templates/gis/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
@@ -107,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gis/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -149,11 +161,12 @@
         <option value="$PROJECT_DIR$/DjangoYOU/urls.py" />
         <option value="$PROJECT_DIR$/gis/static/gis/style.css" />
         <option value="$PROJECT_DIR$/gis/templates/gis/about.html" />
-        <option value="$PROJECT_DIR$/gis/views.py" />
-        <option value="$PROJECT_DIR$/gis/urls.py" />
         <option value="$PROJECT_DIR$/gis/models.py" />
         <option value="$PROJECT_DIR$/gis/templates/gis/home.html" />
         <option value="$PROJECT_DIR$/gis/templates/gis/base.html" />
+        <option value="$PROJECT_DIR$/gis/templates/gis/articles.html" />
+        <option value="$PROJECT_DIR$/gis/views.py" />
+        <option value="$PROJECT_DIR$/gis/urls.py" />
       </list>
     </option>
   </component>
@@ -601,7 +614,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489398948622</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="get_short_text method added">
+      <created>1489399686633</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1489399686633</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -660,7 +680,8 @@
     <MESSAGE value="create base template&#10;" />
     <MESSAGE value="Articles  was added in Home. About urls, views, teemplates were created" />
     <MESSAGE value="references was added in hrefs" />
-    <option name="LAST_COMMIT_MESSAGE" value="references was added in hrefs" />
+    <MESSAGE value="get_short_text method added" />
+    <option name="LAST_COMMIT_MESSAGE" value="get_short_text method added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -676,13 +697,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gis/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DjangoYOU/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -722,6 +736,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#176#385#0" expanded="false" />
+            <element signature="e#410#450#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1045,22 +1061,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gis/views.py">
+    <entry file="file://$PROJECT_DIR$/gis/static/gis/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gis/urls.py">
+    <entry file="file://$PROJECT_DIR$/gis/templates/gis/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="138">
+          <caret line="37" column="61" lean-forward="false" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gis/templates/gis/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gis/templates/gis/articles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gis/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#176#385#0" expanded="false" />
+            <element signature="e#410#450#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1075,27 +1115,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gis/templates/gis/home.html">
+    <entry file="file://$PROJECT_DIR$/gis/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gis/static/gis/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gis/templates/gis/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="37" column="61" lean-forward="false" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
-          <folding />
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
