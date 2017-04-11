@@ -19,3 +19,6 @@ def show_articles(request, article_id):
     article = get_object_or_404(Articles, id=article_id)
     return render(request, 'gis/article.html', {'article': article})
 
+
+def mymap(request):
+    return render(request, "gis/mymap.html")
